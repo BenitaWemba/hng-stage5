@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fafafa;
+}
+.main-container {
+  @apply flex min-h-screen flex-1 flex-col items-center bg-[#FAFAFA] w-[1440px];
+}
